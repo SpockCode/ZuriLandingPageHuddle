@@ -85,7 +85,7 @@ header{
 
 .text button{
     margin: 30px 10px 0px;
-    padding: 20px 50px 20px;
+    padding: 20px 20px 20px;
     background-color: var(--pink);
     border-radius: 10px;
     color:white;
@@ -183,7 +183,7 @@ header{
 
 .flowtext h2{
     padding: 5px;
-    line-height: 60px;
+    line-height: 30px;
 }
 
 .flowtext p{
@@ -269,12 +269,12 @@ header{
 
 .ready h2{
     padding: 5px;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .ready button{
     margin: 10px 10px 0px;
-    padding: 20px 50px 20px;
+    padding: 20px 20px 20px;
     background-color: var(--pink);
     border-radius: 50px;
     color:white;
@@ -319,7 +319,6 @@ footer{
 .nav2{
    
     padding: 5px;
-    
     line-height: 40px;
 }
 .socials{
@@ -331,6 +330,7 @@ footer{
 .copyright{
     text-align: center;
     padding: 20px;
+    font-size:12px;
 }
 
 
