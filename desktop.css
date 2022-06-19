@@ -1,0 +1,352 @@
+
+:root{
+    --pink:hsl(322, 100%, 66%);
+    --PaleCyan: hsl(193, 100%, 96%);
+    --DarkCyan: hsl(192, 100%, 9%);
+    --Blue: hsl(208, 11%, 55%);
+}
+*{
+    border:0;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+   
+}
+body{
+    
+    background-color: white;
+    
+    
+}
+
+h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+button:hover{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+header{
+    background-image: url(bg-hero-desktop.svg);
+    background-color: var(--PaleCyan);
+    margin-top: -10px;
+}
+.heading{
+    margin: 10px 20px 40px;
+    padding: 20px;    
+}
+
+.heading img{
+    float: left;
+    padding:10px;
+    width: 180px;
+}
+
+.heading button{
+    float: right;
+    padding: 10px 50px 10px;
+    background-color: white;
+    border-radius: 20px;
+    color: black;
+    font-weight: bold;
+    
+    cursor: pointer;
+    box-shadow: 1px 2px 2px 2px gainsboro;
+    border: none;
+}
+
+.header{
+    margin: auto;
+    padding: 20px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;        
+}
+
+.text{
+    margin: 0px;
+    width: 40%;
+    padding: 20px;
+  
+}
+
+.text h2{
+    padding: 10px;
+    font-size: 45px;
+    line-height: 60px;
+}
+
+.text p{
+    padding: 10px;
+    font-size: 18px;
+    padding:10px;
+    line-height: 25px;
+}
+
+.text button{
+    margin: 30px 10px 0px;
+    padding: 20px 50px 20px;
+    background-color: var(--pink);
+    border-radius: 10px;
+    color:white;
+    font-weight: bold;
+    font-size: larger;
+    cursor: pointer;
+    box-shadow: 1px 2px 2px 2px gainsboro;    
+}
+.outlook{
+    width: 60%;
+    padding: 20px;
+    
+}
+
+.outlook img{
+    width: 100%;
+    height: 100%;
+}
+.growflow{
+    background-color: white;
+
+}
+/*grow together*/
+
+.grow{
+   padding-top: 20px;
+  }
+.growcontent{
+    margin:40px auto;
+    width: 80%;
+    padding: 5px 50px  5px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;     
+    box-shadow: 1px 10px 15px 5px gainsboro;
+    border:none;  
+    border-radius: 15px;
+ 
+}
+
+
+.growtext{
+    font-size: 15px;
+    width: 50%;
+    padding: 40px;
+}
+
+.growtext h2{
+    padding: 5px;
+    font-size: 30px;
+    line-height: 60px;
+}
+
+.growtext p{
+    padding: 10px;
+    font-size: 20px;
+    padding:5px;
+    line-height: 25px;
+    color: grey;
+}
+.growing{
+    width: 50%;
+    padding: 10px;
+}
+.growing img{
+    width: 100%;
+    height: 100%;
+}
+
+
+/*flowing*/
+
+.flow{
+    background-color: white;
+}
+.flowcontent{
+    margin:10px auto;
+    width: 80%;
+    padding: 5px 50px  5px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    box-shadow: 1px 10px 15px 5px gainsboro;
+    border-radius: 15px;
+
+}
+
+
+.flowtext{
+    
+    font-size: 15px;
+    width: 50%;
+    padding: 40px;
+    
+  
+}
+
+.flowtext h2{
+    padding: 5px;
+    font-size: 30px;
+    line-height: 60px;
+}
+
+.flowtext p{
+    padding: 10px;
+    font-size: 20px;
+    padding:5px;
+    line-height: 25px;
+    color: grey;
+}
+.flowing{
+    width: 50%;
+    padding: 20px;
+}
+.flowing img{
+    width: 100%;
+    height: 100%;
+}
+
+/*Your User*/
+
+.user{
+    background-color: white;
+}
+.usercontent{
+    margin:40px auto;
+    width: 80%;
+    padding: 5px 50px  5px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    box-shadow: 1px 5px 5px 5px gainsboro;
+    border:none;  
+    border-radius: 15px;
+}
+
+
+.usertext{
+     font-size: 15px;
+    width: 50%;
+    padding: 40px;
+    
+  
+}
+
+.usertext h2{
+    padding: 5px;
+    font-size: 30px;
+    line-height: 60px;
+}
+
+.usertext p{
+    padding: 10px;
+    font-size: 20px;
+    padding:5px;
+    line-height: 25px;
+    color: grey;
+}
+.using{
+    width: 50%;
+    padding: 20px;
+}
+.using img{
+    width: 100%;
+    height: 100%;
+}
+
+.spaced{
+    padding: 100px;
+    
+  
+}
+/* Card*/
+.card{
+    margin: auto;
+    position: relative;
+    width: 50%;
+
+    justify-content: center;
+}
+.ready{
+      padding: 50px 60px ; 
+      text-align: center;
+      background-color: white;
+      box-shadow: 1px 0px 5px 0px gainsboro;
+      border-radius: 10px;
+ 
+}
+
+
+.ready button{
+    margin: 30px 10px 0px;
+    padding: 20px 50px 20px;
+    background-color: var(--pink);
+    border-radius: 50px;
+    color:white;
+    font-weight: bold;
+    font-size: larger;
+    cursor: pointer;
+    box-shadow: 1px 0px 2px 2px gainsboro; 
+}
+
+/*footer*/
+footer{
+    background-color: var(--DarkCyan);
+    color:white;
+    margin-top: -180px;
+    padding: 50px;
+   
+}
+
+.footer{
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+.contact{
+    width: 30%;
+    padding: 10px;
+    margin: 20px auto;
+}
+.contact p{
+    padding: 10px;
+}
+
+.logofoot{
+    padding: 30px 0px;
+}
+
+
+.nav1{
+    width:20%;
+    padding: 10px;
+    margin-top: 50px;
+    line-height: 40px;
+}
+
+.nav2{
+    width:20%;
+    padding: 5px;
+    margin-top: 50px;
+    line-height: 40px;
+}
+.socials{
+    width:20%;
+    padding: 10px;
+    margin-top: -30px;
+    cursor: pointer;
+}
+
+.copyright{
+    text-align: right;
+    padding: 20px;
+}
+
