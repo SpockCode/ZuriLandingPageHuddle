@@ -13,10 +13,7 @@
    
 }
 body{
-    
     background-color: white;
-    
-    
 }
 
 h2{
@@ -40,7 +37,7 @@ header{
 }
 .heading{
     margin: 10px 20px 40px;
-    padding: 20px;    
+    padding: 10px;    
 }
 
 .heading img{
@@ -51,7 +48,7 @@ header{
 
 .heading button{
     float: right;
-    padding: 10px 50px 10px;
+    padding: 10px 20px 10px;
     background-color: white;
     border-radius: 20px;
     color: black;
